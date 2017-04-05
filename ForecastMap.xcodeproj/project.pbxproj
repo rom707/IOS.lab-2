@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		305C02CB1E9352F100639BB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305C02CA1E9352F100639BB3 /* AppDelegate.swift */; };
+		305C02CD1E9352F100639BB3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305C02CC1E9352F100639BB3 /* FirstViewController.swift */; };
+		305C02CF1E9352F100639BB3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305C02CE1E9352F100639BB3 /* SecondViewController.swift */; };
+		305C02D21E9352F100639BB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 305C02D01E9352F100639BB3 /* Main.storyboard */; };
+		305C02D41E9352F100639BB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 305C02D31E9352F100639BB3 /* Assets.xcassets */; };
+		305C02D71E9352F100639BB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 305C02D51E9352F100639BB3 /* LaunchScreen.storyboard */; };
+		305C02DF1E93538700639BB3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 305C02DE1E93538700639BB3 /* Podfile */; };
+		305C02E31E93543F00639BB3 /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = 305C02E21E93543F00639BB3 /* cities.json */; };
+		305C02E51E93546D00639BB3 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305C02E41E93546D00639BB3 /* Config.swift */; };
+		305C02F51E93577D00639BB3 /* Alamofire in Resources */ = {isa = PBXBuildFile; fileRef = 305C02EA1E93577D00639BB3 /* Alamofire */; };
+		305C02F61E93577D00639BB3 /* GoogleMaps in Resources */ = {isa = PBXBuildFile; fileRef = 305C02EB1E93577D00639BB3 /* GoogleMaps */; };
+		305C02F71E93577D00639BB3 /* GooglePlaces in Resources */ = {isa = PBXBuildFile; fileRef = 305C02EC1E93577D00639BB3 /* GooglePlaces */; };
+		305C02F81E93577D00639BB3 /* Headers in Resources */ = {isa = PBXBuildFile; fileRef = 305C02ED1E93577D00639BB3 /* Headers */; };
+		305C02F91E93577D00639BB3 /* Local Podspecs in Resources */ = {isa = PBXBuildFile; fileRef = 305C02EE1E93577D00639BB3 /* Local Podspecs */; };
+		305C02FA1E93577D00639BB3 /* Manifest.lock in Resources */ = {isa = PBXBuildFile; fileRef = 305C02EF1E93577D00639BB3 /* Manifest.lock */; };
+		305C02FB1E93577D00639BB3 /* SwiftyJSON in Resources */ = {isa = PBXBuildFile; fileRef = 305C02F31E93577D00639BB3 /* SwiftyJSON */; };
+		305C02FC1E93577D00639BB3 /* Target Support Files in Resources */ = {isa = PBXBuildFile; fileRef = 305C02F41E93577D00639BB3 /* Target Support Files */; };
+		305C03071E93590100639BB3 /* ForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305C03061E93590100639BB3 /* ForecastModel.swift */; };
+		305C03091E935B3100639BB3 /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305C03081E935B3100639BB3 /* CityModel.swift */; };
+		305C03111E935C2B00639BB3 /* CityViewTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305C03101E935C2B00639BB3 /* CityViewTableCell.swift */; };
+		8783EB5229E9A167543B23EF /* Pods_ForecastMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F725E226BC990F561D68F565 /* Pods_ForecastMap.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		305C03001E93577D00639BB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 305C02F01E93577D00639BB3 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A70469A790508BE4721EB44AE79A8B56;
+			remoteInfo = Alamofire;
+		};
+		305C03021E93577D00639BB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 305C02F01E93577D00639BB3 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 12F2EA0FA7E617690B3E37E9D519A6FD;
+			remoteInfo = "Pods-ForecastMap";
+		};
+		305C03041E93577D00639BB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 305C02F01E93577D00639BB3 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 56B10C683E63AB438785AA49C9A73518;
+			remoteInfo = SwiftyJSON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		305C02C71E9352F100639BB3 /* ForecastMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForecastMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		305C02CA1E9352F100639BB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		305C02CC1E9352F100639BB3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		305C02CE1E9352F100639BB3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		305C02D11E9352F100639BB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		305C02D31E9352F100639BB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		305C02D61E9352F100639BB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		305C02D81E9352F100639BB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		305C02DE1E93538700639BB3 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		305C02E21E93543F00639BB3 /* cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
+		305C02E41E93546D00639BB3 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		305C02EA1E93577D00639BB3 /* Alamofire */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Alamofire; path = Pods/Alamofire; sourceTree = "<group>"; };
+		305C02EB1E93577D00639BB3 /* GoogleMaps */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GoogleMaps; path = Pods/GoogleMaps; sourceTree = "<group>"; };
+		305C02EC1E93577D00639BB3 /* GooglePlaces */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GooglePlaces; path = Pods/GooglePlaces; sourceTree = "<group>"; };
+		305C02ED1E93577D00639BB3 /* Headers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Headers; path = Pods/Headers; sourceTree = "<group>"; };
+		305C02EE1E93577D00639BB3 /* Local Podspecs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Local Podspecs"; path = "Pods/Local Podspecs"; sourceTree = "<group>"; };
+		305C02EF1E93577D00639BB3 /* Manifest.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Manifest.lock; path = Pods/Manifest.lock; sourceTree = "<group>"; };
+		305C02F01E93577D00639BB3 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		305C02F31E93577D00639BB3 /* SwiftyJSON */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SwiftyJSON; path = Pods/SwiftyJSON; sourceTree = "<group>"; };
+		305C02F41E93577D00639BB3 /* Target Support Files */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Target Support Files"; path = "Pods/Target Support Files"; sourceTree = "<group>"; };
+		305C03061E93590100639BB3 /* ForecastModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastModel.swift; sourceTree = "<group>"; };
+		305C03081E935B3100639BB3 /* CityModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
+		305C03101E935C2B00639BB3 /* CityViewTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityViewTableCell.swift; sourceTree = "<group>"; };
+		8093FA29810F8EA76BF2A264 /* Pods-ForecastMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForecastMap.release.xcconfig"; path = "Pods/Target Support Files/Pods-ForecastMap/Pods-ForecastMap.release.xcconfig"; sourceTree = "<group>"; };
+		A492E1E4F8141184D6ED0923 /* Pods-ForecastMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForecastMap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ForecastMap/Pods-ForecastMap.debug.xcconfig"; sourceTree = "<group>"; };
+		F725E226BC990F561D68F565 /* Pods_ForecastMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForecastMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		305C02C41E9352F100639BB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8783EB5229E9A167543B23EF /* Pods_ForecastMap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09DC89A6848883A63F5C7AA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				305C02EA1E93577D00639BB3 /* Alamofire */,
+				305C02EB1E93577D00639BB3 /* GoogleMaps */,
+				305C02EC1E93577D00639BB3 /* GooglePlaces */,
+				305C02ED1E93577D00639BB3 /* Headers */,
+				305C02EE1E93577D00639BB3 /* Local Podspecs */,
+				305C02EF1E93577D00639BB3 /* Manifest.lock */,
+				305C02F01E93577D00639BB3 /* Pods.xcodeproj */,
+				305C02F31E93577D00639BB3 /* SwiftyJSON */,
+				305C02F41E93577D00639BB3 /* Target Support Files */,
+				A492E1E4F8141184D6ED0923 /* Pods-ForecastMap.debug.xcconfig */,
+				8093FA29810F8EA76BF2A264 /* Pods-ForecastMap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		305C02BE1E9352F100639BB3 = {
+			isa = PBXGroup;
+			children = (
+				305C02C91E9352F100639BB3 /* ForecastMap */,
+				305C02C81E9352F100639BB3 /* Products */,
+				09DC89A6848883A63F5C7AA0 /* Pods */,
+				77DD58CC4E8D54CFFB9847BD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		305C02C81E9352F100639BB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				305C02C71E9352F100639BB3 /* ForecastMap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		305C02C91E9352F100639BB3 /* ForecastMap */ = {
+			isa = PBXGroup;
+			children = (
+				305C02CA1E9352F100639BB3 /* AppDelegate.swift */,
+				305C02CC1E9352F100639BB3 /* FirstViewController.swift */,
+				305C02CE1E9352F100639BB3 /* SecondViewController.swift */,
+				305C02D01E9352F100639BB3 /* Main.storyboard */,
+				305C02D31E9352F100639BB3 /* Assets.xcassets */,
+				305C02D51E9352F100639BB3 /* LaunchScreen.storyboard */,
+				305C02D81E9352F100639BB3 /* Info.plist */,
+				305C02E21E93543F00639BB3 /* cities.json */,
+				305C02DE1E93538700639BB3 /* Podfile */,
+				305C02E41E93546D00639BB3 /* Config.swift */,
+				305C03061E93590100639BB3 /* ForecastModel.swift */,
+				305C03081E935B3100639BB3 /* CityModel.swift */,
+				305C03101E935C2B00639BB3 /* CityViewTableCell.swift */,
+			);
+			path = ForecastMap;
+			sourceTree = "<group>";
+		};
+		305C02F11E93577D00639BB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				305C03011E93577D00639BB3 /* Alamofire.framework */,
+				305C03031E93577D00639BB3 /* Pods_ForecastMap.framework */,
+				305C03051E93577D00639BB3 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77DD58CC4E8D54CFFB9847BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F725E226BC990F561D68F565 /* Pods_ForecastMap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		305C02C61E9352F100639BB3 /* ForecastMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 305C02DB1E9352F100639BB3 /* Build configuration list for PBXNativeTarget "ForecastMap" */;
+			buildPhases = (
+				E98991F7495A5D32C6A61D6A /* [CP] Check Pods Manifest.lock */,
+				305C02C31E9352F100639BB3 /* Sources */,
+				305C02C41E9352F100639BB3 /* Frameworks */,
+				305C02C51E9352F100639BB3 /* Resources */,
+				DCBFC5F372415A2A90281356 /* [CP] Embed Pods Frameworks */,
+				94E45460D0D5430D7FD415DC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForecastMap;
+			productName = ForecastMap;
+			productReference = 305C02C71E9352F100639BB3 /* ForecastMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		305C02BF1E9352F100639BB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Alshevscky Roman";
+				TargetAttributes = {
+					305C02C61E9352F100639BB3 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 305C02C21E9352F100639BB3 /* Build configuration list for PBXProject "ForecastMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 305C02BE1E9352F100639BB3;
+			productRefGroup = 305C02C81E9352F100639BB3 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 305C02F11E93577D00639BB3 /* Products */;
+					ProjectRef = 305C02F01E93577D00639BB3 /* Pods.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				305C02C61E9352F100639BB3 /* ForecastMap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		305C03011E93577D00639BB3 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 305C03001E93577D00639BB3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		305C03031E93577D00639BB3 /* Pods_ForecastMap.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_ForecastMap.framework;
+			remoteRef = 305C03021E93577D00639BB3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		305C03051E93577D00639BB3 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 305C03041E93577D00639BB3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		305C02C51E9352F100639BB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305C02FB1E93577D00639BB3 /* SwiftyJSON in Resources */,
+				305C02F91E93577D00639BB3 /* Local Podspecs in Resources */,
+				305C02F61E93577D00639BB3 /* GoogleMaps in Resources */,
+				305C02F81E93577D00639BB3 /* Headers in Resources */,
+				305C02FA1E93577D00639BB3 /* Manifest.lock in Resources */,
+				305C02D71E9352F100639BB3 /* LaunchScreen.storyboard in Resources */,
+				305C02F51E93577D00639BB3 /* Alamofire in Resources */,
+				305C02F71E93577D00639BB3 /* GooglePlaces in Resources */,
+				305C02E31E93543F00639BB3 /* cities.json in Resources */,
+				305C02D41E9352F100639BB3 /* Assets.xcassets in Resources */,
+				305C02DF1E93538700639BB3 /* Podfile in Resources */,
+				305C02D21E9352F100639BB3 /* Main.storyboard in Resources */,
+				305C02FC1E93577D00639BB3 /* Target Support Files in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		94E45460D0D5430D7FD415DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ForecastMap/Pods-ForecastMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCBFC5F372415A2A90281356 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ForecastMap/Pods-ForecastMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E98991F7495A5D32C6A61D6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		305C02C31E9352F100639BB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305C02CF1E9352F100639BB3 /* SecondViewController.swift in Sources */,
+				305C03111E935C2B00639BB3 /* CityViewTableCell.swift in Sources */,
+				305C02E51E93546D00639BB3 /* Config.swift in Sources */,
+				305C03091E935B3100639BB3 /* CityModel.swift in Sources */,
+				305C02CB1E9352F100639BB3 /* AppDelegate.swift in Sources */,
+				305C03071E93590100639BB3 /* ForecastModel.swift in Sources */,
+				305C02CD1E9352F100639BB3 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		305C02D01E9352F100639BB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				305C02D11E9352F100639BB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		305C02D51E9352F100639BB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				305C02D61E9352F100639BB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		305C02D91E9352F100639BB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		305C02DA1E9352F100639BB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		305C02DC1E9352F100639BB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A492E1E4F8141184D6ED0923 /* Pods-ForecastMap.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ForecastMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.forecast.ForecastMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		305C02DD1E9352F100639BB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8093FA29810F8EA76BF2A264 /* Pods-ForecastMap.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ForecastMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.forecast.ForecastMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		305C02C21E9352F100639BB3 /* Build configuration list for PBXProject "ForecastMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				305C02D91E9352F100639BB3 /* Debug */,
+				305C02DA1E9352F100639BB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		305C02DB1E9352F100639BB3 /* Build configuration list for PBXNativeTarget "ForecastMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				305C02DC1E9352F100639BB3 /* Debug */,
+				305C02DD1E9352F100639BB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 305C02BF1E9352F100639BB3 /* Project object */;
+}
